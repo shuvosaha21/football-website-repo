@@ -1,0 +1,154 @@
+/* css responsive part for mobile */
+
+@media only screen and (max-width:480px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        width: 360px;
+        height: 695px;
+    }
+
+    .header-container {
+        width: 360px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text {
+        width: 278px;
+        margin-left: 16px;
+        margin-top: 112px;
+    }
+
+    .header-text h1 {
+        font-size: 36px;
+    }
+
+    .header-banner {
+        width: 330px;
+        height: 360px;
+    }
+
+    .header-banner img {
+        width: 330px;
+        height: 260px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .players-section {
+        width: 330px;
+        display: grid;
+        margin-left: 24px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .copa-highlight {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-top: -50px;
+
+    }
+
+    .copa-text {
+        width: 300px;
+
+    }
+
+    .copa-text h1 {
+        font-size: 30px;
+    }
+
+    .copa-text p {
+        font-size: 16px;
+        margin-bottom: 26px;
+    }
+
+    .copa-banner {
+        width: 330px;
+        margin-top: 30px;
+
+    }
+
+    .copa-banner img {
+        width: 120%;
+
+    }
+
+    .about-section {
+        text-overflow: ellipsis;
+        margin-top: 30px;
+        text-align: center;
+        max-width: 480px;
+        margin-right: -50px;
+
+    }
+
+    .about-overlay {
+        margin-right: -50px;
+    }
+
+    .about-section p {
+        width: 330px;
+        height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .about-btn {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .about-btn:hover {
+        background: none;
+        border: 2px solid #e02c6d;
+        color: #e02c6d;
+        transition: .5s;
+    }
+
+    .contact-section {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .contact-banner {
+        display: none;
+    }
+
+    .contact-form {
+        display: block;
+        width: 360px;
+        margin-left: -170px;
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+
+    .footer-section {
+        max-width: 480px;
+        margin-top: 100px;
+        height: 360px;
+        overflow: hidden;
+    }
+
+    .footer-logo {
+        width: 260px;
+    }
+
+    .footer-logo img {
+        width: 260px;
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+}
